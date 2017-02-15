@@ -1,0 +1,26 @@
+
+name: python_cache
+version: 0.0.1
+language: python
+description: Cache python
+public: true
+tags:
+  - python
+  - cache
+inputs:
+  - name: FLOW_ENABLE_CACHE
+    editable: true
+    options:
+      - TRUE
+      - FALSE
+  - name: FLOW_VERSION
+    editable: false
+  - name: FLOW_PROJECT_ID
+    editable: false
+outputs:
+  - name: FLOW_ENABLE_CACHE
+script_path: ./run.sh  
+  
+template: |  
+  
+  
