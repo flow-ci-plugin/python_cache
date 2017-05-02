@@ -2,7 +2,7 @@
 name: python_cache
 version: 0.0.1
 language: python
-description: Cache python
+description: "本插件主要缓存 `pip install`的包"
 public: true
 tags:
   - python
